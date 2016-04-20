@@ -10,7 +10,7 @@ title: XP Days 2016
 email: info@xpday.net
 description: > # this means to ignore newlines until "baseurl:"
   XP Day, Extreme Programming, Agile, XP, Extreme, Programming, Benelux, Belgium, The Netherlands
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "xpday2016" # the subpath of your site, e.g. /blog
 url: "http://xpday.net" # the base hostname & protocol for your site
 twitter_username: xpdaysbenelux
 github_username:  xpdaysbenelux
