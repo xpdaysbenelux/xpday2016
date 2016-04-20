@@ -1,142 +1,193 @@
-      body {
-        padding-top: 20px;
-        padding-bottom: 60px;
-      }
-
-      /* Custom container */
-      .container {
-        margin: 0 auto;
-        max-width: 1000px;
-      }
-      .container > hr {
-        margin: 20px 0;
-        clear : both ;
-      }
-
-      /* Main marketing message and sign up button */
-      .jumbotron {
-        margin: 80px 0;
-        text-align: center;
-      }
-      .jumbotron h1 {
-        font-size: 100px;
-        line-height: 1;
-      }
-      .jumbotron .lead {
-        font-size: 24px;
-        line-height: 1.25;
-      }
-      .jumbotron .btn {
-        font-size: 21px;
-        padding: 14px 24px;
-      }
-
-      /* Supporting marketing content */
-      .marketing {
-        margin: 60px 0;
-      }
-      .marketing p + h4 {
-        margin-top: 28px;
-      }
-
-
-      /* Customize the navbar links to be fill the entire space of the .navbar */
-      .navbar .navbar-inner {
-        padding: 0;
-      }
-      .navbar .nav {
-        margin: 0;
-        display: table;
-        width: 100%;
-      }
-      .navbar .nav li {
-        display: table-cell;
-        width: 1%;
-        float: none;
-      }
-      .navbar .nav li a {
-        font-weight: bold;
-        text-align: center;
-        border-left: 1px solid rgba(255,255,255,.75);
-        border-right: 1px solid rgba(0,0,0,.1);
-      }
-      .navbar .nav li:first-child a {
-        border-left: 0;
-        border-radius: 3px 0 0 3px;
-      }
-      .navbar .nav li:last-child a {
-        border-right: 0;
-        border-radius: 0 3px 3px 0;
-      }
-
-      .spacedRow {
-        margin-bottom : 1em ;
-      }
-
-      h3.announce {
-        background-color : #ddccbb ;
-        padding-left : 1em ;
-        padding-top : 0.5em ;
-        padding-bottom: 0.5em;
-        margin-left : 1em ;
-        margin-right : 1em ;
--webkit-border-radius: 16px;
-     -moz-border-radius: 16px;
-          border-radius: 16px;
-      }
-
-      h4 a:hover,  h4  a:focus , h4 a {
-        color : crimson ;
-        text-decoration : underline;
-      } 
-
-     h3 a:hover,  h3  a:focus , h3 a {
-        color : crimson ;
-        text-decoration : underline ;
-      } 
-
-     h3 {
-       color: crimson;
-     }
-
-     h4 {
-       color: crimson;
-     }
-
-      h4.announce1 {
-        background-color : #aa9999 ;
-        padding-left : 1em ;
-        padding-top : 0.5em ;
-        padding-bottom: 0.5em;
-        margin-left : 1em ;
-        margin-right : 1em ;
--webkit-border-radius: 16px;
-     -moz-border-radius: 16px;
-          border-radius: 16px;
-      }
-
-      h4.announce2 {
-        background-color : #bbbbbb ;
-        padding-left : 1em ;
-        padding-top : 0.5em ;
-        padding-bottom: 0.5em;
-        margin-left : 1em ;
-        margin-right : 1em ;
--webkit-border-radius: 16px;
-     -moz-border-radius: 16px;
-          border-radius: 16px;
+body {
+  padding-top: 20px;
+  padding-bottom: 60px;
 }
-    .diff_kept {
-      background : #F5F6CE ;
-    }
 
-    .diff_added {
-      background : #ACFA58 ;
-    }
+/* Custom container */
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.container > hr {
+  margin: 20px 0;
+  clear : both ;
+}
 
-    .diff_deleted {
-      background : #F78181 ;
-    }
+/* Main marketing message and sign up button */
+.jumbotron {
+  margin: 80px 0;
+  text-align: center;
+}
+.jumbotron h1 {
+  font-size: 100px;
+  line-height: 1;
+}
+.jumbotron .lead {
+  font-size: 24px;
+  line-height: 1.25;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 60px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+
+/* Customize the navbar links to be fill the entire space of the .navbar */
+.navbar .navbar-inner {
+  padding: 0;
+}
+.navbar-inner {
+    min-height: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #fafafa;
+    background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
+    background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+    background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+    background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+    background-repeat: repeat-x;
+    border: 1px solid #d4d4d4;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);}
+.navbar .nav {
+  margin: 0;
+  display: table;
+  width: 100%;
+}
+.navbar .nav li {
+  display: table-cell;
+  width: 1%;
+  float: none;
+}
+.navbar .nav li a {
+  font-weight: bold;
+  text-align: center;
+  border-left: 1px solid rgba(255,255,255,.75);
+  border-right: 1px solid rgba(0,0,0,.1);
+}
+.navbar .nav li:first-child a {
+  border-left: 0;
+  border-radius: 3px 0 0 3px;
+}
+.navbar .nav li:last-child a {
+  border-right: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.spacedRow {
+  margin-bottom : 1em ;
+}
+
+.footer {
+  background-color: #fafafa;
+  padding: 30px 0;
+}
+
+.index-header {
+  text-align: center;
+}
+
+.index-header {
+    min-height: 650px;
+}
+.conference-date,
+.call-for-sessions,
+.location,
+.index-header .description {
+    margin: 14px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: inherit;
+}
+.index-header .description {
+    font-size: x-large;
+    font-weight: inherit;
+    color: red;
+    font-style: italic;
+}
+.conference-date {
+    margin-top: 40px;
+}
+
+
+h3.announce {
+  background-color : #ddccbb ;
+  padding-left : 1em ;
+  padding-top : 0.5em ;
+  padding-bottom: 0.5em;
+  margin-left : 1em ;
+  margin-right : 1em ;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+}
+
+h4 a:hover,  h4  a:focus , h4 a {
+  color : crimson ;
+  text-decoration : underline;
+} 
+
+h3 a:hover,  h3  a:focus , h3 a {
+  color : crimson ;
+  text-decoration : underline ;
+} 
+
+h3 {
+  color: crimson;
+}
+
+h4 {
+  color: crimson;
+}
+
+h4.announce1 {
+  background-color : #aa9999 ;
+  padding-left : 1em ;
+  padding-top : 0.5em ;
+  padding-bottom: 0.5em;
+  margin-left : 1em ;
+  margin-right : 1em ;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+}
+
+h4.announce2 {
+  background-color : #bbbbbb ;
+  padding-left : 1em ;
+  padding-top : 0.5em ;
+  padding-bottom: 0.5em;
+  margin-left : 1em ;
+  margin-right : 1em ;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+}
+.diff_kept {
+  background : #F5F6CE ;
+}
+
+.diff_added {
+  background : #ACFA58 ;
+}
+
+.diff_deleted {
+  background : #F78181 ;
+}
 
 p {
   text-align : justify ;
