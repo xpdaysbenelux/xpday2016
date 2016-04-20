@@ -3,8 +3,6 @@ layout: page
 title: Previous Editons
 ---
 
-## XP Days history
-
 We've organized 12 XP Days and 6 Mini XP Days since 2003. You can go back to each of the conferences to see the kinds of sessions we have on the program, view session resources and outputs, have a look at foto's, interviews and videos and to read what partricipants think of the conference.
 
    * [Mini XP Day 2014](http://www.xpday.net/Xpday2014/Mini XPDay/About.html) and [XP Days 2014](http://www.xpday.net/Xpday2014/XPDays/About.html) in Eindhoven

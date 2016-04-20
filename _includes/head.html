@@ -6,9 +6,8 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/xpday.css" rel="stylesheet" type="text/css">
-    <link href="/css/program.css" rel="stylesheet" type="text/css">
+    <link href={{ "/css/xpday.css" | prepend: site.baseurl }} target="" rel="stylesheet" type="text/css">
+    <link href={{ "/css/program.css" | prepend: site.baseurl }} rel="stylesheet" type="text/css">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
