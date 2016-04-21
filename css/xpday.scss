@@ -103,7 +103,6 @@ body {
 
 .index-header {
   text-align: center;
-  min-height: 500px;
 }
 .conference-date,
 .call-for-sessions,
@@ -113,6 +112,10 @@ body {
     font-size: xx-large;
     font-weight: bold;
     font-family: inherit;
+}
+.body-container {
+  @extend .container-fluid;
+  max-width: 940px;
 }
 .index-header .description {
     font-size: x-large;
