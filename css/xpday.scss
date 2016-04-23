@@ -105,13 +105,20 @@ body {
   text-align: center;
 }
 .conference-date,
-.call-for-sessions,
+.next-date,
 .location,
 .index-header .description {
     margin: 14px;
     font-size: xx-large;
     font-weight: bold;
     font-family: inherit;
+}
+.next-date {
+  display:inline-block;
+}
+.next-date .more-dates {
+    text-align: right;
+    font-size: small;
 }
 .body-container {
   @extend .container-fluid;
@@ -125,6 +132,10 @@ body {
 }
 .conference-date {
     margin-top: 40px;
+}
+.program-block {
+  @extend .row;
+  text-align: center;
 }
 .sponsor-block {
   @extend .row;
