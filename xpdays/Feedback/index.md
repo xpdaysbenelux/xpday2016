@@ -5,7 +5,7 @@ title: XP Days Feedback
 
 <h2>Feedback</h2>
 
-[Conference feedback from participants](/xpdays/Feedback/FromParticipants)
+[Conference feedback from participants]( {{site.baseurl}}/xpdays/Feedback/FromParticipants.html)
 
 <h2>Blogs and articles</h2>
 

@@ -1,7 +1,14 @@
 ---
 layout: page
-title: About
+title: What is XP Days Benelux?
 ---
+
+XP Days Benelux is an international conference where we learn to bring software to life and grow mature systems that support business needs.
+
+It provides an excellent environment for exchanging ideas, hands-on exercises and extreme experiences. The best way to understand what XP Days is,  is to experience it. The second best way is <a href="http://vimeo.com/21765255" target="_blank">to see XP Days participants and organisers in action.</a>:
+
+<iframe src="http://player.vimeo.com/video/21765255" width="400" height="225" frameborder="0"></iframe>
+
 
 #### Agile Systems
 
